@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Hunter</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assest/Bootstrap/css/bootstrap.min.css">
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="/assest/style/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="primary_navbar navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav logo me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#"><img src="/assest/images/logo2.png" alt=""></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav heading mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#">All Day, EveryDay.</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-user fa-xl" style="color: #000000;"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar secndary_navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about_us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#coffee_menu">
+                                Coffee Menu
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#">Coffee Hunter</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our_product">
+                                Products
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#coffee_blog">
+                                Coffee Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact_form">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="slider" id="home">
+
+        <swiper-container class="mySwiper" pagination="true" navigation="true" autoplay="true">
+            <swiper-slide>
+                <img src="assest/images/slider/slider-2.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="assest/images/slider/slider-1.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="assest/images/slider/slider-3.png" alt="">
+            </swiper-slide>
+        </swiper-container>
+
+    </section>
+
+    <section class="about pt-5" id="about_us">
+
+        <h1 class="text-center">About <span>Us</span></h1>
+
+        <div class="my_card pt-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-6 col-sm-12 image">
+                    <img src="/assest/images/Side-Coffee.jpg" alt="...">
+                </div>
+                <div class="col-md-6 col-sm-12 content py-auto">
+                    <div class="card-body px-3">
+                        <h2 class="card-title pt-4">What Makes Our Coffee Special ?</h2>
+                        <p class="card-text pt-3 mb-3">
+                            At Coffee Hunter, we believe in the art of crafting the perfect cup. Our
+                            coffee is special because we source only the finest beans, roasted to perfection to bring
+                            out the rich, bold flavors. Every cup is brewed with passion, ensuring that each sip offers
+                            a unique and satisfying experience. Whether you're here to kickstart your day or unwind, our
+                            commitment
+                            to quality and taste makes Coffee Hunter the ultimate destination for coffee lovers.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu pt-5" id="coffee_menu">
+        <h1 class="text-center">Our <span>Menu</span></h1>
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-4.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-8.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 content">
+                    <div class="my_card">
+                        <img src="assest/images/menu/menu-7.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tasty And Healthy</h5>
+                            <p class="card-text py-2">15.99$ <small>19.99$</small></p>
+                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products py-5" id="our_product">
+        <h1 class="text-center">Our <span>Products</span></h1>
+
+        <div class="container">
+
+            <div class="row py-2">
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-4.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-5.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 content my-3">
+                    <div class="my_card">
+                        <img src="assest/images/products-size/product-6.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Coffee</h5>
+                            <p class="card-text py-2">25.99$ <small>30.99$</small></p>
+                            <p>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            </p>
+                            <a href="#" class="btn btn-primary mb-3">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="blog py-5" id="coffee_blog">
+        <h1 class="text-center">Coffee Blog</h1>
+        <p class="text-center">Experience the world of coffee from our point of view</p>
+
+        <div class="container">
+            <div class="row pb-3">
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Exploring 5 Surprising Cold Coffee Benefits</h2>
+                            <p class="card-text">Cold coffee, with its unique taste and numerous health benefits, is
+                                gaining recognition and popularity. With the rise in demand for cold drinks, people are
+                                discovering the numerous advantages of...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Unlocking The Differences: Espresso vs. Cappuccino</h2>
+                            <p class="card-text">Espresso and cappuccino are espresso-based drinks that have become
+                                widely popular in coffee shops around the world. Though they are similar in origin,
+                                espresso and cappuccino differ greatly in taste,...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Boost Your Morning With A Delicious And Energising Butter Coffee</h2>
+                            <p class="card-text">Butter coffee, also known as Bulletproof coffee, has gained popularity
+                                in recent years as a way to supercharge your morning routine. This creamy and indulgent
+                                drink combines coffee with grass-fed...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Mocha vs Latte: How To Differentiate?</h2>
+                            <p class="card-text">As a true connoisseur of espresso, no doubt you want to be in the know
+                                about all the details that set each caffeinated beverage apart. But even if you're far
+                                from an experienced home barista, chances are you won't mistake a mocha for a latte. But
+                                even if you're far...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Black Coffee VS Milk Coffee: Which Should You Choose?</h2>
+                            <p class="card-text">Coffee is an incredibly popular and versatile beverage, yet the two
+                                most common types are black coffee and milk coffee. Though their preparation methods may
+                                be similar, these drinks have...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 content">
+                    <div class="card">
+                        <img src="/assest/images/blog/blog-6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">How to Make Your Own Homemade Vanilla Coffee</h2>
+                            <p class="card-text">Vanilla coffees are popular coffee shop drinks that can be expensive,
+                                but making one at home doesn't have to break the bank.Vanilla coffee has risen in
+                                popularity. With just a few simple ingredients and steps,...</p>
+                            <a href="#" class="btn btn-primary">Read The Post →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact pb-5" id="contact_form">
+        <h1 class="text-center pt-5">Contact <span>Us</span></h1>
+        <div class="container">
+
+            <div class="my_card pt-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-6 col-lg-6 map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109665.41824552685!2d73.36189563915832!3d30.80139139422972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922a75d9a9639e5%3A0xa25a5b6b17fab12b!2sOkara%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1723531786448!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-6 col-lg-6 content py-auto bg-black">
+
+                        <form action="/action_page.php" style="max-width:500px;margin:auto">
+                            <h1 class="text-center py-4">Get In Touch</h1>
+                            <div class="input-container py-2">
+                                <i class="fa-solid fa-xl  fa-user icon pt-4"></i>
+                                <input class="input-field" type="text" placeholder="Username" name="name">
+                            </div>
+
+                            <div class="input-container py-2">
+                                <i class="fa-solid fa-envelope fa-xl icon pt-4"></i>
+                                <input class="input-field" type="text" placeholder="Email" name="email">
+                            </div>
+
+                            <div class="input-container py-2">
+                                <i class="fa-solid fa-xl pt-4 fa-phone icon"></i>
+                                <input class="input-field" type="tel" placeholder="Phone" name="phone">
+                            </div>
+
+                            <button type="submit" class="btn pt-2">Contact Now</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer py-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 icons_column text-center">
+
+                    <i class="fa-brands fa-facebook-f fa-lg"></i>
+                    <i class="fa-brands fa-x-twitter fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-linkedin-in fa-lg"></i>
+                    <i class="fa-brands fa-pinterest-p fa-lg"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 content text-center py-4">
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Coffee Menu</a>
+                    <a href="">Products</a>
+                    <a href="">Coffee Blog</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+
+            <h3 class="text-center">Developed By <a href="#">Dipsian</a> @2024 | All Rights Reserved</h3>
+        </div>
+
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="/assest/Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"></script>
+
+
+    <!-- swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
